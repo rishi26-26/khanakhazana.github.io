@@ -1,0 +1,72 @@
+/* utility */
+.img-utility{
+    max-width: 100%;
+}
+.food_image{
+background-image: url(samosa1.jpg);
+background-size: cover;
+
+height:100vh;
+position: relative;
+}
+.food_wrap{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.food_wrap h1{
+    font-size: 2.45rem;
+    text-align: center;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .input_code{
+
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+.form_code button{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:rgb(63, 160, 216);
+    color: white;
+    padding: 0.6em;
+    margin-top: 1rem;
+    
+    border: none;
+    border-radius: .3rem;
+
+}
+/* food section */
+.food{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.food_item{
+    float: left;
+    width: 33.33%;
+}
+pre{
+    
+   color: rgb(78, 9, 9);
+   
+}
+
+}
+img{
+    display: block;
+}
